@@ -1,0 +1,584 @@
+﻿{
+  "Categorias": [
+    {
+      "Id": 1,
+      "Nome": "Iluminação",
+      "Peso": 10,
+      "MultiSelecao": false,
+      "Items": [
+        {
+          "Id": 1,
+          "Nome": "Não possuo",
+          "Peso": 1
+        },
+        {
+          "Id": 2,
+          "Nome": "Vela",
+          "Peso": 2
+        },
+        {
+          "Id": 3,
+          "Nome": "Lamparina",
+          "Peso": 3
+        },
+        {
+          "Id": 4,
+          "Nome": "Lanterna",
+          "Peso": 4
+        },
+        {
+          "Id": 5,
+          "Nome": "Lanterna de celular",
+          "Peso": 5
+        },
+        {
+          "Id": 6,
+          "Nome": "Abajur",
+          "Peso": 6
+        },
+        {
+          "Id": 7,
+          "Nome": "Luminária",
+          "Peso": 7
+        },
+        {
+          "Id": 8,
+          "Nome": "Luz de teto amarela",
+          "Peso": 8
+        },
+        {
+          "Id": 9,
+          "Nome": "Luz de teto branca",
+          "Peso": 9
+        },
+        {
+          "Id": 10,
+          "Nome": "Iluminação difusa",
+          "Peso": 10
+        }
+      ]
+    },
+    {
+      "Id": 2,
+      "Nome": "Assento",
+      "Peso": 9,
+      "MultiSelecao": false,
+      "Items": [
+        {
+          "Id": 11,
+          "Nome": "Não tenho lugar para sentar",
+          "Peso": 1
+        },
+        {
+          "Id": 12,
+          "Nome": "Cama",
+          "Peso": 2
+        },
+        {
+          "Id": 13,
+          "Nome": "Sofá",
+          "Peso": 3
+        },
+        {
+          "Id": 14,
+          "Nome": "Banqueta",
+          "Peso": 4
+        },
+        {
+          "Id": 15,
+          "Nome": "Cadeira de madeira",
+          "Peso": 5
+        },
+        {
+          "Id": 16,
+          "Nome": "Cadeira de bar/plástico",
+          "Peso": 6
+        },
+        {
+          "Id": 17,
+          "Nome": "Cadeira de escritório fixa",
+          "Peso": 7
+        },
+        {
+          "Id": 18,
+          "Nome": "Cadeira de escritório móvel sem apoio de braço",
+          "Peso": 8
+        },
+        {
+          "Id": 19,
+          "Nome": "Cadeira de escritório móvel com apoio de braço",
+          "Peso": 9
+        },
+        {
+          "Id": 20,
+          "Nome": "Cadeira Gamer",
+          "Peso": 10
+        }
+      ]
+    },
+    {
+      "Id": 3,
+      "Nome": "Mesa",
+      "Peso": 8,
+      "MultiSelecao": false,
+      "Items": [
+        {
+          "Id": 21,
+          "Nome": "Não possuo mesa",
+          "Peso": 1
+        },
+        {
+          "Id": 22,
+          "Nome": "Rack",
+          "Peso": 2
+        },
+        {
+          "Id": 23,
+          "Nome": "Mesa lateral de apoio",
+          "Peso": 3
+        },
+        {
+          "Id": 24,
+          "Nome": "Mesinha de centro de sala",
+          "Peso": 4
+        },
+        {
+          "Id": 25,
+          "Nome": "Bancada da cozinha",
+          "Peso": 5
+        },
+        {
+          "Id": 26,
+          "Nome": "Mesa multiuso portátil",
+          "Peso": 6
+        },
+        {
+          "Id": 27,
+          "Nome": "Mesa de cozinha",
+          "Peso": 7
+        },
+        {
+          "Id": 28,
+          "Nome": "Mesa de jantar",
+          "Peso": 8
+        },
+        {
+          "Id": 29,
+          "Nome": "Escrivaninha",
+          "Peso": 9
+        },
+        {
+          "Id": 30,
+          "Nome": "Mesa de escritório",
+          "Peso": 10
+        }
+      ]
+    },
+    {
+      "Id": 4,
+      "Nome": "Cômodo",
+      "Peso": 7,
+      "MultiSelecao": false,
+      "Items": [
+        {
+          "Id": 31,
+          "Nome": "Comodo compartilhado (várias pessoas me distraem)",
+          "Peso": 1
+        },
+        {
+          "Id": 32,
+          "Nome": "Cozinha (as pessoas me atrapalham um pouco)",
+          "Peso": 2
+        },
+        {
+          "Id": 33,
+          "Nome": "Garagem",
+          "Peso": 3
+        },
+        {
+          "Id": 34,
+          "Nome": "Quarto compartilhado",
+          "Peso": 4
+        },
+        {
+          "Id": 35,
+          "Nome": "Quarto privado",
+          "Peso": 5
+        },
+        {
+          "Id": 36,
+          "Nome": "Sala de TV",
+          "Peso": 6
+        },
+        {
+          "Id": 37,
+          "Nome": "Sala de jantar",
+          "Peso": 7
+        },
+        {
+          "Id": 38,
+          "Nome": "Dispensa",
+          "Peso": 8
+        },
+        {
+          "Id": 39,
+          "Nome": "Escritório compartilhado",
+          "Peso": 9
+        },
+        {
+          "Id": 40,
+          "Nome": "Escritório privado",
+          "Peso": 10
+        }
+      ]
+    },
+    {
+      "Id": 5,
+      "Nome": "Ruído no trabalho",
+      "Peso": 6,
+      "MultiSelecao": true,
+      "Items": [
+        {
+          "Id": 41,
+          "Nome": "TV sempre ligada",
+          "Peso": 1
+        },
+        {
+          "Id": 42,
+          "Nome": "Muito barulho de trânsito",
+          "Peso": 2
+        },
+        {
+          "Id": 43,
+          "Nome": "Música externa",
+          "Peso": 3
+        },
+        {
+          "Id": 44,
+          "Nome": "Pessoas conversando",
+          "Peso": 4
+        },
+        {
+          "Id": 45,
+          "Nome": "Interferência de telefones/celulares",
+          "Peso": 5
+        },
+        {
+          "Id": 46,
+          "Nome": "Janelas/portas batendo",
+          "Peso": 6
+        },
+        {
+          "Id": 47,
+          "Nome": "Animais fazendo barulho",
+          "Peso": 7
+        },
+        {
+          "Id": 48,
+          "Nome": "Sons de natureza",
+          "Peso": 8
+        },
+        {
+          "Id": 49,
+          "Nome": "Pouco ruído",
+          "Peso": 9
+        },
+        {
+          "Id": 50,
+          "Nome": "Silencioso",
+          "Peso": 10
+        }
+      ]
+    },
+    {
+      "Id": 6,
+      "Nome": "Ferramenta de trabalho",
+      "Peso": 5,
+      "MultiSelecao": true,
+      "Items": [
+        {
+          "Id": 51,
+          "Nome": "Desktop com médio/baixo desempenho",
+          "Peso": 1
+        },
+        {
+          "Id": 52,
+          "Nome": "Desktop com alto desempenho",
+          "Peso": 2
+        },
+        {
+          "Id": 53,
+          "Nome": "Notebook com médio/baixo desempenho",
+          "Peso": 3
+        },
+        {
+          "Id": 54,
+          "Nome": "Notebook com alto desempenho",
+          "Peso": 4
+        },
+        {
+          "Id": 55,
+          "Nome": "Monitor extra",
+          "Peso": 5
+        },
+        {
+          "Id": 56,
+          "Nome": "Mouse com/sem fio",
+          "Peso": 6
+        },
+        {
+          "Id": 57,
+          "Nome": "Teclado comum",
+          "Peso": 7
+        },
+        {
+          "Id": 58,
+          "Nome": "Apoio para notebook",
+          "Peso": 8
+        },
+        {
+          "Id": 59,
+          "Nome": "Fone de ouvido",
+          "Peso": 9
+        },
+        {
+          "Id": 60,
+          "Nome": "Headfone ou headset",
+          "Peso": 10
+        }
+      ]
+    },
+    {
+      "Id": 7,
+      "Nome": "Atividade física",
+      "Peso": 4,
+      "MultiSelecao": true,
+      "Items": [
+        {
+          "Id": 61,
+          "Nome": "Não prático",
+          "Peso": 1
+        },
+        {
+          "Id": 62,
+          "Nome": "Faço pequenos alongamentos diariamente",
+          "Peso": 2
+        },
+        {
+          "Id": 63,
+          "Nome": "Faço alongamentos quando lembro",
+          "Peso": 3
+        },
+        {
+          "Id": 64,
+          "Nome": "Prático caminhada dentro do prédio/quintal de vez em quando (1 a 3x/semana)",
+          "Peso": 4
+        },
+        {
+          "Id": 65,
+          "Nome": "Prático caminhada dentro do prédio/quintal regularmente (mais de 3x/semana)",
+          "Peso": 5
+        },
+        {
+          "Id": 66,
+          "Nome": "Faço exercícios musculares dentro de casa diariamente",
+          "Peso": 6
+        },
+        {
+          "Id": 67,
+          "Nome": "Prático ioga/pilates de pelo menos 1x/semana",
+          "Peso": 7
+        },
+        {
+          "Id": 68,
+          "Nome": "Natação",
+          "Peso": 8
+        },
+        {
+          "Id": 69,
+          "Nome": "Faço academia em casa (tenho espaço dedicado)",
+          "Peso": 9
+        },
+        {
+          "Id": 70,
+          "Nome": "Faço aeróbico em casa (pular corda, dançar, bicicleta, ergométrica)",
+          "Peso": 10
+        }
+      ]
+    },
+    {
+      "Id": 8,
+      "Nome": "Saúde mental",
+      "Peso": 3,
+      "MultiSelecao": true,
+      "Items": [
+        {
+          "Id": 71,
+          "Nome": "Não possuo",
+          "Peso": 1
+        },
+        {
+          "Id": 72,
+          "Nome": "Meditação",
+          "Peso": 2
+        },
+        {
+          "Id": 73,
+          "Nome": "Conversa com amigos",
+          "Peso": 3
+        },
+        {
+          "Id": 74,
+          "Nome": "Conversa com familiares",
+          "Peso": 4
+        },
+        {
+          "Id": 75,
+          "Nome": "Conversa com psicologo",
+          "Peso": 5
+        },
+        {
+          "Id": 76,
+          "Nome": "Jogos focados para a mente (ex.: aplicativos)",
+          "Peso": 6
+        },
+        {
+          "Id": 77,
+          "Nome": "Puzzle (quebra-cabeça)",
+          "Peso": 7
+        },
+        {
+          "Id": 78,
+          "Nome": "Livros de colorir",
+          "Peso": 8
+        },
+        {
+          "Id": 79,
+          "Nome": "Livros de auto-ajuda",
+          "Peso": 9
+        },
+        {
+          "Id": 80,
+          "Nome": "Atividade física",
+          "Peso": 10
+        }
+      ]
+    },
+    {
+      "Id": 9,
+      "Nome": "Alimentação",
+      "Peso": 2,
+      "MultiSelecao": true,
+      "Items": [
+        {
+          "Id": 81,
+          "Nome": "Fast food",
+          "Peso": 1
+        },
+        {
+          "Id": 82,
+          "Nome": "Massas",
+          "Peso": 2
+        },
+        {
+          "Id": 83,
+          "Nome": "Como petiscos o dia inteiro",
+          "Peso": 3
+        },
+        {
+          "Id": 84,
+          "Nome": "Doces",
+          "Peso": 4
+        },
+        {
+          "Id": 85,
+          "Nome": "Como apenas enlatados e conservantes",
+          "Peso": 5
+        },
+        {
+          "Id": 86,
+          "Nome": "Peço delivery",
+          "Peso": 6
+        },
+        {
+          "Id": 87,
+          "Nome": "Cozinho",
+          "Peso": 7
+        },
+        {
+          "Id": 88,
+          "Nome": "Faço 3 refeições por dia",
+          "Peso": 8
+        },
+        {
+          "Id": 89,
+          "Nome": "Como verduras, legumes e frutas",
+          "Peso": 9
+        },
+        {
+          "Id": 90,
+          "Nome": "Faço 5 refeições por dia com intervalos regulares",
+          "Peso": 10
+        }
+      ]
+    },
+    {
+      "Id": 10,
+      "Nome": "Lazer",
+      "Peso": 1,
+      "MultiSelecao": true,
+      "Items": [
+        {
+          "Id": 91,
+          "Nome": "Não faço nada",
+          "Peso": 1
+        },
+        {
+          "Id": 92,
+          "Nome": "Organização",
+          "Peso": 2
+        },
+        {
+          "Id": 93,
+          "Nome": "Tirar foto",
+          "Peso": 3
+        },
+        {
+          "Id": 94,
+          "Nome": "Jogos em geral",
+          "Peso": 4
+        },
+        {
+          "Id": 95,
+          "Nome": "Decoração da casa",
+          "Peso": 5
+        },
+        {
+          "Id": 96,
+          "Nome": "Assisto filme (muito tempo)",
+          "Peso": 6
+        },
+        {
+          "Id": 97,
+          "Nome": "Assisto série (pouco tempo)",
+          "Peso": 7
+        },
+        {
+          "Id": 98,
+          "Nome": "Cozinho",
+          "Peso": 8
+        },
+        {
+          "Id": 99,
+          "Nome": "Karaokê",
+          "Peso": 9
+        },
+        {
+          "Id": 100,
+          "Nome": "Leio livro (história, cultura)",
+          "Peso": 10
+        }
+      ]
+    }
+  ]
+}
