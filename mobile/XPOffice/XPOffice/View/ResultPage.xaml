@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XPOffice.View.ResultPage">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <StackLayout
+                Orientation="Vertical"
+                Spacing="30"
+                VerticalOptions="FillAndExpand">
+
+                <Frame
+                    CornerRadius="30"
+                    BackgroundColor="#9AD4B2"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="Start"
+                    WidthRequest="250"
+                    HeightRequest="120"
+                    BorderColor="#9AD4B2"
+                    HasShadow="true"
+                    Padding="0">
+                        <Label
+                            FontSize="28"
+                            Text="Pontuação Final"
+                            TextColor="Black"
+                            HorizontalTextAlignment="Center"
+                            HorizontalOptions="CenterAndExpand"
+                            VerticalOptions="CenterAndExpand"/>
+                </Frame>
+
+                <Label
+                    FontSize="60"
+                    Text="69 %"
+                    TextColor="#438F67"
+                    HorizontalTextAlignment="Center"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="Start"/>
+
+                <Image 
+                    Source="life_wheel"
+                    HorizontalOptions="StartAndExpand"
+                    VerticalOptions="StartAndExpand"
+                    WidthRequest="400"/>
+
+                <StackLayout
+                    HorizontalOptions="FillAndExpand"
+                    Orientation="Horizontal">
+
+                    <Button
+                        Text="Reiniciar"
+                        TextColor="White"
+                        BackgroundColor="Red"
+                        FontSize="12"
+                        FontAttributes="Bold"
+                        BorderRadius="10"
+                        BorderColor="#438F67"
+                        HorizontalOptions="StartAndExpand"
+                        VerticalOptions="Center"
+                        WidthRequest="100"
+                        Command="{Binding Restart}"/>
+                    
+                    <Button
+                        Text="Vamos Melhorar?"
+                        TextColor="White"
+                        BackgroundColor="#438F67"
+                        FontSize="12"
+                        FontAttributes="Bold"
+                        BorderRadius="10"
+                        BorderColor="#438F67"
+                        HorizontalOptions="EndAndExpand"
+                        VerticalOptions="Center"
+                        WidthRequest="100"
+                        Command="{Binding GoImprove}"/>
+
+                </StackLayout>
+                
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

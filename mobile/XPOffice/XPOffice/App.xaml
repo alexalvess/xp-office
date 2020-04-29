@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XPOffice.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Style x:Key="buttonChoice" TargetType="Button">
+                <Setter Property="TextColor" Value="#438F67"/>
+                <Setter Property="BackgroundColor" Value="#9AD4B2"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="FontSize" Value="13"/>
+                <Setter Property="BorderRadius" Value="15"/>
+                <Setter Property="BorderColor" Value="#438F67"/>
+                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+                <Setter Property="VerticalOptions" Value="FillAndExpand"/>
+                <Setter Property="HeightRequest" Value="50"/>
+                <Setter Property="Command" Value="{Binding NextCommand}"/>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

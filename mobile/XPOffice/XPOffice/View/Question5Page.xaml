@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XPOffice.View.Question5Page">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <StackLayout 
+                Orientation="Vertical"
+                Spacing="30"
+                VerticalOptions="FillAndExpand">
+
+                <Frame
+                    CornerRadius="10"
+                    BackgroundColor="#438F67"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="Start"
+                    WidthRequest="250"
+                    HeightRequest="180"
+                    BorderColor="#9AD4B2"
+                    HasShadow="true"
+                    Padding="0">
+                    <StackLayout Orientation="Horizontal">
+                        <Image 
+                            Source="ruido"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            Margin="5,0,0,0"
+                            WidthRequest="80"/>
+                        <Label
+                            FontSize="30"
+                            Text="Sobre Ruído"
+                            TextColor="White"
+                            HorizontalTextAlignment="Center"
+                            HorizontalOptions="End"
+                            VerticalOptions="Center"/>
+                    </StackLayout>
+                </Frame>
+
+                <ScrollView>
+                    <StackLayout Orientation="Vertical"
+                                 Spacing="20">
+                        <Button 
+                            Text="Muito barulho de trânsito"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="TV sempre ligada"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Música externa"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Pessoas conversando"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Interferência de telefones/celulares"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Janelas/portas batendo"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Aniamais fazendo barulho"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Sons da natureza (vento, raios)"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Pouco ruído"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Silencioso"
+                            Style="{StaticResource buttonChoice}"/>
+                    </StackLayout>
+                </ScrollView>
+
+                <StackLayout
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="EndAndExpand"
+                    Orientation="Horizontal">
+                    <Image
+                        Source="left"
+                        HorizontalOptions="StartAndExpand"
+                        VerticalOptions="Center">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding BackCommand}"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

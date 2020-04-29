@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XPOffice.View.Question7Page">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <StackLayout 
+                Orientation="Vertical"
+                Spacing="30"
+                VerticalOptions="FillAndExpand">
+
+                <Frame
+                    CornerRadius="10"
+                    BackgroundColor="#438F67"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="Start"
+                    WidthRequest="250"
+                    HeightRequest="180"
+                    BorderColor="#9AD4B2"
+                    HasShadow="true"
+                    Padding="0">
+                    <StackLayout Orientation="Horizontal">
+                        <Image 
+                            Source="workout"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            Margin="5,0,0,0"
+                            WidthRequest="80"/>
+                        <Label
+                            FontSize="30"
+                            Text="Sobre Ativ. Física"
+                            TextColor="White"
+                            HorizontalTextAlignment="Center"
+                            HorizontalOptions="End"
+                            VerticalOptions="Center"/>
+                    </StackLayout>
+                </Frame>
+
+                <ScrollView>
+                    <StackLayout Orientation="Vertical"
+                                 Spacing="20">
+                        <Button 
+                            Text="Não pratico"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Faço alongamento quando lembro"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Faço alongamentos diariamente"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Caminho dentro do prédio/quintal 1 a 3x/semana"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Caminho dentro do prédio/quintal regularmente"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Exercícios musculares dentro de casa diariamente"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Ioga/Pilates 1x/semana"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Natação"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Academia em casa"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Aeróbico em casa"
+                            Style="{StaticResource buttonChoice}"/>
+                    </StackLayout>
+                </ScrollView>
+
+                <StackLayout
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="EndAndExpand"
+                    Orientation="Horizontal">
+                    <Image
+                        Source="left"
+                        HorizontalOptions="StartAndExpand"
+                        VerticalOptions="Center">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding BackCommand}"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

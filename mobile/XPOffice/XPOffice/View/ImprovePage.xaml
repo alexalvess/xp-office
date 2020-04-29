@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XPOffice.View.ImprovePage">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <StackLayout 
+                Orientation="Vertical"
+                Spacing="30"
+                VerticalOptions="FillAndExpand">
+                <Frame
+                    CornerRadius="30"
+                    BackgroundColor="#438F67"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="Start"
+                    WidthRequest="250"
+                    HeightRequest="120"
+                    BorderColor="#9AD4B2"
+                    HasShadow="true"
+                    Padding="0">
+                    <Label
+                        FontSize="20"
+                        Text="Você pode melhorar em: Atividade Física!"
+                        FontAttributes="Bold"
+                        TextColor="White"
+                        HorizontalTextAlignment="Center"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="CenterAndExpand"/>
+                </Frame>
+
+                <StackLayout 
+                    Orientation="Vertical"
+                    Spacing="10"
+                    HorizontalOptions="FillAndExpand">
+                    <Image
+                        Source="exercise"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="CenterAndExpand"
+                        HeightRequest="250"/>
+                    <Label
+                        FontSize="16"
+                        Text="Comece fazendo pequenos alongamentos durante o dia!"
+                        TextColor="Black"
+                        HorizontalTextAlignment="Center"
+                        HorizontalOptions="CenterAndExpand"
+                        VerticalOptions="CenterAndExpand"
+                        WidthRequest="250"/>
+                </StackLayout>
+
+                <Button
+                    Text="Feito!"
+                    TextColor="White"
+                    BackgroundColor="#438F67"
+                    FontSize="16"
+                    FontAttributes="Bold"
+                    BorderRadius="10"
+                    BorderColor="#438F67"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    WidthRequest="150"
+                    Command="{Binding AlreadyDo}"/>
+
+                <StackLayout
+                    HorizontalOptions="FillAndExpand"
+                    Orientation="Horizontal">
+
+                    <Button
+                        Text="Voltar para Roda"
+                        TextColor="#438F67"
+                        BackgroundColor="#9AD4B2"
+                        FontSize="12"
+                        FontAttributes="Bold"
+                        BorderRadius="10"
+                        BorderColor="#438F67"
+                        HorizontalOptions="StartAndExpand"
+                        VerticalOptions="Center"
+                        WidthRequest="100"
+                        Command="{Binding GoBack}"/>
+
+                    <Button
+                        Text="Reiniciar"
+                        TextColor="White"
+                        BackgroundColor="#438F67"
+                        FontSize="12"
+                        FontAttributes="Bold"
+                        BorderRadius="10"
+                        BorderColor="#438F67"
+                        HorizontalOptions="EndAndExpand"
+                        VerticalOptions="Center"
+                        WidthRequest="100"
+                        Command="{Binding Restart}"/>
+
+                </StackLayout>
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XPOffice.View.Question1Page">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <StackLayout 
+                Orientation="Vertical"
+                Spacing="30"
+                VerticalOptions="FillAndExpand">
+
+                <Frame
+                    CornerRadius="10"
+                    BackgroundColor="#438F67"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="Start"
+                    WidthRequest="250"
+                    HeightRequest="180"
+                    BorderColor="#9AD4B2"
+                    HasShadow="true"
+                    Padding="0">
+                    <StackLayout Orientation="Horizontal">
+                        <Image 
+                            Source="luminaria"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            Margin="5,0,0,0"
+                            WidthRequest="80"/>
+                        <Label
+                            FontSize="30"
+                            Text="Sobre Iluminação"
+                            TextColor="White"
+                            HorizontalTextAlignment="Center"
+                            HorizontalOptions="End"
+                            VerticalOptions="Center"/>
+                    </StackLayout>
+                </Frame>
+
+                <ScrollView>
+                    <StackLayout Orientation="Vertical"
+                                 Spacing="20">
+                        <Button 
+                            Text="Não possuo"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Vela"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Lamparina"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Lanterna"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Lanterna"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Abajur"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Luminária"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Luz de teto amarela"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Luz de teto branca"
+                            Style="{StaticResource buttonChoice}"/>
+
+                        <Button 
+                            Text="Iluminação difusa"
+                            Style="{StaticResource buttonChoice}"/>
+                    </StackLayout>
+                </ScrollView>
+
+                <StackLayout
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="EndAndExpand"
+                    Orientation="Horizontal">
+                    <Image
+                        Source="left"
+                        HorizontalOptions="StartAndExpand"
+                        VerticalOptions="Center">
+                        <Image.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding BackCommand}"/>
+                        </Image.GestureRecognizers>
+                    </Image>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

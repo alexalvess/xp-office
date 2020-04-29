@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="XPOffice.View.StartPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame
+                CornerRadius="10"
+                BackgroundColor="#438F67"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"
+                HeightRequest="100"
+                WidthRequest="200"
+                BorderColor="#9AD4B2"
+                HasShadow="true"
+                Padding="0">
+                <StackLayout Orientation="Horizontal">
+                    <Image 
+                        Source="play"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        Margin="5,0,0,0"/>
+                    <Label
+                        Text="Vamos Começar!"
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        HorizontalTextAlignment="Center"
+                        HorizontalOptions="End"
+                        VerticalOptions="Center"
+                        TextColor="White"/>
+                </StackLayout>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding NextCommand}"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
